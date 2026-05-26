@@ -6,3 +6,9 @@
 [for college]
 ## What I Want to Build
 [what the teacher assign]
+
+
+## Collaborator:
+[Your Name]
+
+"What is one rule or constraint you think is most important when using AI tools for coding?"
