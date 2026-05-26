@@ -5,4 +5,4 @@
 ## Why I'm Taking This Course
 [for college]
 ## What I Want to Build
-[What would you like to create by the end of this unit
+[what the teacher assign]
