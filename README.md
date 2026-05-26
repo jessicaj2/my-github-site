@@ -1,8 +1,8 @@
-# Hi, I'm [Your Name]!
+# Hi, I'm [Jessica]!
 ## About Me
-- I'm in [grade] at [school name]
-- I enjoy: [list 2-3 interests]
+- I'm in [10th grade] at [Energy Tech]
+- I enjoy: [nature and social media]
 ## Why I'm Taking This Course
-[Write 1-2 sentences about your goal]
+[for college]
 ## What I Want to Build
 [What would you like to create by the end of this unit
