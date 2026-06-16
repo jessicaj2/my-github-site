@@ -7,15 +7,33 @@
    <style>
      body { font-family: Arial, sans-serif; max-width: 800px;
             margin: 0 auto; padding: 20px; background: #f5f5f5; color: #333333; transition: background 0.3s, color 0.3s; }
-     h1   { color: #1F4E79; }
-     h2   { color: #2E75B6; border-bottom: 2px solid #2E75B6; }
+     h1   { color: #1F4E79; margin-bottom: 20px; }
+     h2   { color: #2E75B6; border-bottom: 2px solid #2E75B6; margin-top: 0; }
      p    { line-height: 1.6; }
+     
+     /* Card Component Styles */
+     .card {
+       background: #ffffff;
+       border: 1px solid #dddddd;
+       border-radius: 8px;
+       padding: 20px;
+       margin-bottom: 20px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+       transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+     }
      
      /* Dark Mode Styles */
      body.dark-mode { background: #121212; color: #e0e0e0; }
      body.dark-mode h1 { color: #4F94CD; }
      body.dark-mode h2 { color: #5B9BD5; border-bottom: 2px solid #5B9BD5; }
      body.dark-mode a { color: #87CEFA; }
+     
+     /* Dark Mode Card Styles */
+     body.dark-mode .card {
+       background: #1e1e1e;
+       border: 1px solid #333333;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+     }
 
      /* Toggle Button Styles */
      .toggle-btn { position: absolute; top: 20px; right: 20px; padding: 10px 15px; 
@@ -28,19 +46,34 @@
    <button class="toggle-btn" onclick="toggleMode()" id="modeBtn">Dark Mode</button>
 
    <h1>Hi, I'm Jessica!</h1>
-   <h2>About Me</h2>
-   <p>I am a 10th grader at Energy Tech. I am from Ecuador.</p>
-   <h2>My Interests</h2>
-   <p>I like to play volleyball, bake and go shoping.</p>
-   <h2>My Goals for This Course</h2>
-   <p>I want to be able to build more complex feature in any website i create. </p>
-   <h2>My GitHub</h2>
-   <p>Check out my projects:</p>
-<ul>
-  <li><a href="https://studio.code.org/projects/applab/423db91a-17a9-4368-b1ec-f3e94d072683">My app about US Presidents</a></li>
-  <li><a href="https://github.com/jessicaj2">[MyGitHub]</a></li>
-</ul>
 
+   <!-- About Me Card -->
+   <div class="card">
+     <h2>About Me</h2>
+     <p>I am a 10th grader at Energy Tech. I am from Ecuador.</p>
+   </div>
+
+   <!-- Interests Card -->
+   <div class="card">
+     <h2>My Interests</h2>
+     <p>I like to play volleyball, bake and go shoping.</p>
+   </div>
+
+   <!-- Goals Card -->
+   <div class="card">
+     <h2>My Goals for This Course</h2>
+     <p>I want to be able to build more complex feature in any website i create. </p>
+   </div>
+
+   <!-- GitHub Card -->
+   <div class="card">
+     <h2>My GitHub</h2>
+     <p>Check out my projects:</p>
+     <ul>
+       <li><a href="https://studio.code.org/projects/applab/423db91a-17a9-4368-b1ec-f3e94d072683">My app about US Presidents</a></li>
+       <li><a href="https://github.com/jessicaj2">[MyGitHub]</a></li>
+     </ul>
+   </div>
 
    <script>
      function toggleMode() {
